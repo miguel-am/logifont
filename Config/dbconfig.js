@@ -1,11 +1,11 @@
 module.exports = {
 
-    HOST:"localhost",
+   /* HOST:"localhost",
     USER:"ades",
-    PASSWORD:"almogabar",
-  /*  HOST:"localhost",
+    PASSWORD:"almogabar",*/
+    HOST:"localhost",
     USER:"user_logifont",
-    PASSWORD:"Qrgc055&",*/
+    PASSWORD:"Qrgc055&",
     DB:"logifont-2020",
     dialect:"mysql",
     pool:{
