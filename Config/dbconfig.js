@@ -1,11 +1,11 @@
 module.exports = {
 
-    //HOST:"localhost",
-   // USER:"ades",
-    //PASSWORD:"almogabar",
-    HOST:"htpps://logifontpicking.es",
+    HOST:"localhost",
+    USER:"ades",
+    PASSWORD:"almogabar",
+  /*  HOST:"localhost",
     USER:"user_logifont",
-    PASSWORD:"tBw51e&8",
+    PASSWORD:"Qrgc055&",*/
     DB:"logifont-2020",
     dialect:"mysql",
     pool:{
