@@ -43,7 +43,8 @@ module.exports = (app) => {
     references.findOne
   );
   // Delete a user 
-  router.delete("/delete", user.delete);
+  router.delete("/delete",    validateToken,
+  user.grantAccess("deleteOwn", "profile"), user.delete);
   // Create a new warehouse
   router.post(
     "/create/warehouse",
